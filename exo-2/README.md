@@ -6,7 +6,7 @@ Cet exercice consitu un nouveau projet dans un React mais toujours dans le même
 
 Pour cette mission, le fichier index.js contient déjà l’appel pour render un élément dans le ReactDOM.
 
-ReactDOM.render(List(), document.getElementById('root'))
+ReactDOM.render(List(), document.getElementById('root')) <----- NE PAS FAIRE CA FINALEMENT ! Il faut garder la structure de l'index.js créée et y mettre la fonction liste.
 
 Comme vous pouvez le voir, nous appelons ici une fonction comme élément à render. Mais la fonction List n’est pas encore définie - votre tâche est de la coder !
 
